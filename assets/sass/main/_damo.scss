@@ -1,20 +1,16 @@
-/* damo item */
-
 .damo {
     padding-top: 112px;
-}
-
-.damo .damos .damo_hed {
-    font-size: 36px;
-    color: #454360;
-    font-family: "Rubik", sans-serif;
-    font-weight: 700;
-    margin-left: 14px;
-    margin-bottom: 58px;
-}
-
-.damo .damos {
-    position: relative;
+    .damos {
+        position: relative;
+        .damo_hed {
+            font-size: 36px;
+            color: #454360;
+            font-family: "Rubik", sans-serif;
+            font-weight: 700;
+            margin-left: 14px;
+            margin-bottom: 58px;
+        }
+    }
 }
 
 .damo .damos .dot_ing {
