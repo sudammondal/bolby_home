@@ -1,0 +1,101 @@
+.footerbolby {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #353353;
+    padding: 40px 0;
+}
+
+.footerbolby .fpra {
+    color: #9C9AB3;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.btn {
+    border-radius: 30px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    line-height: 1;
+    padding: 12px 32px;
+    position: relative;
+}
+
+.btn-default {
+    color: #FFF;
+    background: #FF4C60;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.btn-default:hover {
+    color: #FFF;
+    -webkit-animation-name: button-push;
+    animation-name: button-push;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+@keyframes button-push {
+    50% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+/* up icon css */
+
+.footer .up_iconFixd {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1;
+}
+
+.footer .up_iconFixd a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #eb1b2b;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 1px solid #eb1b2b;
+}
+
+.footer .up_iconFixd a:hover {
+    background-color: transparent;
+    color: #eb1b2b;
+    border-color: #eb1b2b;
+}
+
+.footer .up_icon {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}

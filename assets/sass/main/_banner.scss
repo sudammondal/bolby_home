@@ -1,0 +1,137 @@
+/*banner style seet */
+
+.banner {
+    text-align: center;
+    background-color: #353353;
+    padding: 200px 0 200px;
+    position: relative;
+}
+
+.banner2 {
+    margin-top: 90px;
+}
+
+.banner .banner_main .banne_hed {
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.banner .banner_main .banne_hed2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner .banner_main .banner_pra {
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.7;
+    font-weight: 400;
+    margin-bottom: 24px;
+    font-family: "Rubik", sans-serif;
+}
+
+.banner .banner_main .banner_pra2 {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.banner .banner_main .button .demos {
+    border-radius: 30px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 12px 32px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    background: #FF4C60;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.banner .banner_main .button .demos:hover {
+    animation-name: button-push;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+.banner .banner_main .button .demos2 {
+    background-color: #fff;
+    color: #353353;
+}
+
+.banner .banner_main .demos2 .logoimg img {
+    max-width: 16px;
+    margin-right: 10px;
+}
+
+
+/* img svg */
+
+.banner .svg_item {
+    position: absolute;
+}
+
+.banner .svg {
+    top: 173px;
+    left: 337px;
+}
+
+.banner .svg1 {
+    top: 58px;
+    left: 135px;
+}
+
+.banner .svg2 {
+    bottom: 174px;
+    left: 202px;
+}
+
+.banner .svg3 {
+    bottom: 58px;
+    left: 135px;
+}
+
+.banner .svg4 {
+    top: 55px;
+    left: 607px;
+}
+
+.banner .svg5 {
+    left: 540px;
+    bottom: 57px;
+}
+
+.banner .svg6 {
+    top: 115px;
+    right: 405px;
+}
+
+.banner .svg7 {
+    bottom: 116px;
+    right: 405px;
+}
+
+.banner .svg8 {
+    top: 56px;
+    right: 135px;
+}
+
+.banner .svg9 {
+    top: 261px;
+    right: 270px;
+}
+
+.banner .svg10 {
+    bottom: 58px;
+    right: 135px;
+}

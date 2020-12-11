@@ -1,0 +1,78 @@
+/* damo item */
+
+.damo {
+    padding-top: 112px;
+}
+
+.damo .damos .damo_hed {
+    font-size: 36px;
+    color: #454360;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    margin-left: 14px;
+    margin-bottom: 58px;
+}
+
+.damo .damos {
+    position: relative;
+}
+
+.damo .damos .dot_ing {
+    position: absolute;
+    top: -15px;
+    left: -5px;
+}
+
+.damo .damo_item {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+    background-color: #fff;
+}
+
+.damo .damo_item .damo_img {
+    width: 100%;
+    cursor: pointer;
+    vertical-align: middle;
+    border-style: none;
+    background-image: url(../image/1-1-min.png);
+    display: inline-block;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    transition: all 5s;
+}
+
+.damo .damo_item .damo_img.hhhh {
+    background-image: url(../image/1-2-min.png);
+}
+
+.damo .damo_item .damo_img:hover {
+    background-position: center 100%;
+}
+
+.damo .damo_condation {
+    margin: 20px 0;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.damo .damo_condation a {
+    color: #454360;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+}
