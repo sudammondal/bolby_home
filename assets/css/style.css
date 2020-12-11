@@ -7,6 +7,42 @@ body {
   list-style: non;
 }
 
+.btn {
+  border-radius: 30px;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  overflow: hidden;
+  line-height: 1;
+  padding: 12px 32px;
+  position: relative;
+}
+
+.btn-default {
+  color: #FFF;
+  background: #FF4C60;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.btn-default:hover {
+  color: #FFF;
+  animation-name: button-push;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes button-push {
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /*banner style seet */
 .banner {
   text-align: center;
@@ -129,6 +165,11 @@ body {
 
 .banner2 {
   margin-top: 90px;
+  padding: 100px 0;
+}
+.banner2 .innerbanner2 {
+  width: 100%;
+  height: 100%;
 }
 
 .damo {
@@ -145,13 +186,11 @@ body {
   margin-left: 14px;
   margin-bottom: 58px;
 }
-
-.damo .damos .dot_ing {
+.damo .damos .dot_img {
   position: absolute;
   top: -15px;
   left: -5px;
 }
-
 .damo .damo_item {
   position: relative;
   height: 300px;
@@ -164,7 +203,6 @@ body {
   box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
   background-color: #fff;
 }
-
 .damo .damo_item .damo_img {
   width: 100%;
   cursor: pointer;
@@ -181,15 +219,12 @@ body {
   right: 0;
   transition: all 5s;
 }
-
-.damo .damo_item .damo_img.hhhh {
-  background-image: url(../image/1-2-min.png);
-}
-
 .damo .damo_item .damo_img:hover {
   background-position: center 100%;
 }
-
+.damo .damo_item .hhhh {
+  background-image: url(../image/1-2-min.png);
+}
 .damo .damo_condation {
   margin: 20px 0;
   margin-bottom: 0;
@@ -197,7 +232,6 @@ body {
   text-align: center;
   text-decoration: none;
 }
-
 .damo .damo_condation a {
   color: #454360;
   font-family: "Rubik", sans-serif;
@@ -218,42 +252,6 @@ body {
   font-weight: 400;
 }
 
-.btn {
-  border-radius: 30px;
-  font-family: "Rubik", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  overflow: hidden;
-  line-height: 1;
-  padding: 12px 32px;
-  position: relative;
-}
-
-.btn-default {
-  color: #FFF;
-  background: #FF4C60;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-.btn-default:hover {
-  color: #FFF;
-  animation-name: button-push;
-  animation-duration: 0.3s;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
-}
-
-@keyframes button-push {
-  50% {
-    transform: scale(0.8);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 /* up icon css */
 .footer .up_iconFixd {
   transition: all 0.5s;
@@ -281,4 +279,54 @@ body {
 }
 .footer .up_icon {
   transition: all 0.5s;
+}
+
+@media (max-width: 768px) {
+  .banner .svg {
+    left: 528px;
+  }
+}
+@media (max-width: 576px) {
+  .banner .svg4 {
+    left: 259px;
+  }
+  .banner .svg5 {
+    left: 259px;
+  }
+}
+@media (max-width: 420px) {
+  .banner .svg4 {
+    left: 59px;
+  }
+
+  .banner .svg5 {
+    left: 59px;
+  }
+
+  .banner .svg6 {
+    right: 285px;
+  }
+
+  .banner .svg7 {
+    right: 105px;
+  }
+
+  .banner .svg {
+    left: 300px;
+  }
+
+  .footer .up_iconFixd {
+    right: 15px;
+    bottom: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .banner .svg2 {
+    bottom: 174px;
+    left: 29px;
+  }
+  .banner .svg {
+    bottom: 174px;
+    left: 129px;
+  }
 }
