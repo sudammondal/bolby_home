@@ -203,7 +203,10 @@ body {
   box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
   background-color: #fff;
 }
-.damo .damo_item .damo_img {
+.damo .damo_item a {
+  display: block;
+}
+.damo .damo_item a .damo_img {
   width: 100%;
   cursor: pointer;
   vertical-align: middle;
@@ -219,10 +222,10 @@ body {
   right: 0;
   transition: all 5s;
 }
-.damo .damo_item .damo_img:hover {
+.damo .damo_item a .damo_img:hover {
   background-position: center 100%;
 }
-.damo .damo_item .hhhh {
+.damo .damo_item a .hhhh {
   background-image: url(../image/1-2-min.png);
 }
 .damo .damo_condation {
@@ -233,11 +236,41 @@ body {
   text-decoration: none;
 }
 .damo .damo_condation a {
-  color: #454360;
-  font-family: "Rubik", sans-serif;
-  font-weight: 700;
+  display: inline-block;
+  padding: 0px;
   font-size: 18px;
+  transition: 0.5s;
   text-decoration: none;
+  position: relative;
+  color: #454360;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: "Rubik", sans-serif;
+}
+.damo .damo_condation a::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 50%;
+  width: 0;
+  height: 2px;
+  background: #eb1b2b;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.damo .damo_condation a.active, .damo .damo_condation a:hover {
+  color: #eb1b2b;
+}
+.damo .damo_condation a.active::before, .damo .damo_condation a:hover::before {
+  width: 100%;
+  right: 0;
+  opacity: 1;
+}
+.damo .damo_condation:hover {
+  background: transparent;
+}
+.damo .damo_condation:hover a {
+  color: #eb1b2b;
 }
 
 .footerbolby {
